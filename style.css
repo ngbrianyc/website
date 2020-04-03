@@ -1,0 +1,22 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 40px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: darkslategrey;
+    font-size: 20px;
+}
+body{
+    background-color: lightslategrey;
+    padding:50px;
+}
+.bio{
+display: grid;
+align-items: center;
+
+grid-gap:1rem;
+grid-template-columns: repeat(auto-fit, minmax(450px, .5fr));
+grid-template-rows: repeat(auto-fit, minmax(500px, 1fr));
+}
